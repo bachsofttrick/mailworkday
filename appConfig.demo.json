@@ -1,0 +1,17 @@
+{
+    "nodemailer": {
+        "host": "",
+        "port": 0,
+        "secure": true,
+        "auth": {
+            "user": "",
+            "pass": ""
+        },
+        "logger": true
+    },
+    "dayJobRun": 5,
+    "workWeekendDay": 6,
+    "from": "",
+    "to": "",
+    "subject": ""
+}
