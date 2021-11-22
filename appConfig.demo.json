@@ -1,17 +1,28 @@
 {
-    "nodemailer": {
-        "host": "",
-        "port": 0,
-        "secure": true,
-        "auth": {
-            "user": "",
-            "pass": ""
+    "email": {
+        "enable": true,
+        "nodemailer": {
+            "host": "",
+            "port": 0,
+            "secure": true,
+            "auth": {
+                "user": "",
+                "pass": ""
+            },
+            "logger": true
         },
-        "logger": true
+        "from": "",
+        "to": "",
+        "subject": ""
+    },
+    "g_calendar": {
+        "enable": true,
+        "SCOPES": ["https://www.googleapis.com/auth/calendar"],
+        "TOKEN_PATH": "",
+        "CREDENTIAL_PATH": "",
+        "calendarName": "",
+        "eventName": ""
     },
     "dayJobRun": 5,
-    "workWeekendDay": 6,
-    "from": "",
-    "to": "",
-    "subject": ""
+    "workWeekendDay": 6
 }

@@ -106,3 +106,4 @@ dist
 # Custom Ignore
 log
 appConfig.json
+g_credentials
