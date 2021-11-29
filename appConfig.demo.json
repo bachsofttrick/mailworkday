@@ -1,6 +1,7 @@
 {
     "email": {
         "enable": true,
+        "dayJobRun": 5,
         "nodemailer": {
             "host": "",
             "port": 0,
@@ -17,12 +18,13 @@
     },
     "g_calendar": {
         "enable": true,
+        "dayJobRun": 1,
         "SCOPES": ["https://www.googleapis.com/auth/calendar"],
         "TOKEN_PATH": "",
         "CREDENTIAL_PATH": "",
         "calendarName": "",
         "eventName": ""
     },
-    "dayJobRun": 5,
-    "workWeekendDay": 6
+    "workWeekendDay": 6,
+    "weekGoToWork": [1, 3]
 }
